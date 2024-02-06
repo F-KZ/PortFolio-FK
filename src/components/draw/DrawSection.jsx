@@ -1,6 +1,5 @@
 import { SectionWrapper } from '../atom/SectionWrapper';
 import Image from 'next/image';
-import  paint  from '../../img/paint.svg'
 import cvPic from "../../img/cvPic.png"
 
 
