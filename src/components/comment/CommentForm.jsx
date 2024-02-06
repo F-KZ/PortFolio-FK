@@ -1,7 +1,7 @@
 import { TextField } from "../atom/TextField";
 import { Button } from "../atom/Button";
 import { useState } from "react";
-import { commentsUrl } from "../../lib/api-url";
+
 
 export const CommentForm = ({ addComment }) => {
   // Commentaire - Exercise

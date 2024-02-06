@@ -1,6 +1,5 @@
 
 import { commentsUrl } from '../../lib/api-url';
-import { Loader } from '../atom/Loader/Loader';
 import { SectionWrapper } from '../atom/SectionWrapper';
 import { Comment } from './Comment';
 import { CommentForm } from './CommentForm';

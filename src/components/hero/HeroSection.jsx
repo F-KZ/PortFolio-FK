@@ -1,4 +1,4 @@
-import { FULL_NAME } from "../../lib/config";
+
 import styles from "./hero.module.css"
 //import styles from "./fade.module.css"
 
