@@ -1,3 +1,6 @@
+const GITHUB_TOKEN = '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'
+
+
 const handler = async (req, res) => {
   const username = req.query.username;
 
@@ -22,7 +25,7 @@ const handler = async (req, res) => {
     const response = await fetch(`https://api.github.com/graphql`, {
       method: 'POST',
       headers: {
-        Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        Authorization: `bearer ${GITHUB_TOKEN}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ query }),
@@ -30,6 +33,7 @@ const handler = async (req, res) => {
 
     res.status(200);
     res.json(response.data.user.pinnedItems.nodes);
+    console.log(response.data.user);
   } catch (e) {
     res.status(400);
     res.json({ error: e.message });
