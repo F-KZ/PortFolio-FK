@@ -29,7 +29,7 @@ const handler = async (req, res) => {
     }).then((r) => r.json());
 
     res.status(200);
-   await res.json(response.data.user.pinnedItems.nodes);
+    res.json(response.data.user.pinnedItems.nodes);
   } catch (e) {
     res.status(400);
     res.json({ error: e.message });
