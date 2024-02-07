@@ -32,7 +32,6 @@ export const ProjectSection = () => {
   return (
     <SectionWrapper title="Projects">
       <div className="flex flex-wrap justify-center gap-8">
-        {/* GitHub Repository - Exercise (replace this) */}
         {repo?.map((repository) => {
           return <Project key={repository.name} {...repository}/>
         })}

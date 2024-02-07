@@ -4,7 +4,7 @@ import Head from "next/head";
 import { Footer } from "../src/components/Footer";
 import { Header } from "../src/components/Header";
 import { HeroSection } from "../src/components/hero";
-//import { ProjectSection } from "../src/components/project";
+import { ProjectSection } from "../src/components/project";
 import { Skills } from "../src/components/skills";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -35,7 +35,7 @@ const Home = () => {
         <HeroSection />
         <div className="flex flex-col sm:gap-16 md:gap-40 pt-32">
         <Skills/>
-       {/* <ProjectSection /> */}
+        <ProjectSection /> 
         <DynamicMemorySection />
         <Footer />
       </div>
