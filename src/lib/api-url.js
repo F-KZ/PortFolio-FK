@@ -16,4 +16,4 @@ export const getListOfUrlRepositoriesUrl = (username) => {
  *
  * @type {string}
  */
-export const commentsUrl = "api/comments";
+// export const commentsUrl = "api/comments";
