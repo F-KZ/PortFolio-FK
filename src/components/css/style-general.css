@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+:root {
+  --black: #181818;
+  --white: #f5f7f7;
+  --fade:  150ms;
+  --blue: #0065FC;
+  --light-blue: #DEEBFF;
+  --grey: #F2F2F2;
+}
+body {
+    font-family: raleway;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: normal;
+}
+
+/* NAV */
+ul{
+    list-style-type: none;
+}
+body > div > header > nav > ul > li.onglet-nav.activite_nav > a:hover {
+    color:#0065FC;
+}
+
+body > div > header > nav > ul > li.onglet-nav.hebergement > a:hover {
+    color: #0065FC;
+}
+
+.inscription a {
+
+    color:#0065FC;
+    font-weight: bold;
+}
+
+.colorLien13 {
+    color: #0065FC;
+}
+
+.colorLien2 {
+    color: black;
+}
+.bordure {
+    border-top: 1px solid #0065FC;
+}
+
+
+.texteGras {
+    font-weight: bold;
+}
+
+/* HEADER */
+
+
+
+.gps {
+    height: 50px;
+    width: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+@media only screen and (min-width: 1101px) {
+.recherche {
+    height: 48px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+}
+.button {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    cursor: pointer;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+}  
+
+
+.button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2em;
+}
+
+
+
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filtreIcone:hover > .nomIcone {
+    color: #0065FC;
+
+}
+.filtreIcone:hover > .filtreIcones {
+color: white;
+background-color: #0065FC;
+}
+
+.filtreIcones {
+    color: #0065FC;
+    background-color: #DEEBFF;
+
+}
+
+.filtreTitre {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.nomIcone {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtre h3{
+    margin-right: 20px;
+}
+
+
+/* Bouton Info */
+
+.searchResult {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.searchResultWrapicon {
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    margin-right: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+/* Hebergement */
+.description {
+    height: 56px;
+}
+.titre_hebergements_a_marseille {
+    margin: 0px;
+    font-size: x-large;
+    margin-bottom: 21px;
+}
+.placement_photo a {
+    text-decoration: none;
+    color: black;
+}
+.box_carte:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
+    }
+
+
+
+.hebergement_contenu {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding-left: 16px; */
+    /* margin-bottom: 100px; */
+    width: 100%;
+    font-size: 14px;
+    /* height: 90px; */
+    /* TEXT-DECORATION: none; */
+    /* flex-wrap: nowrap; */
+    /* align-items: flex-start; */
+}
+
+#hebergement href {
+    text-decoration: none;
+}
+
+
+.hebergement_notation {
+    color: #0065FC;
+}
+
+.hebergement_contenu h3,
+.hebergement_populaire_contenu h3 {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.hebergement_montrer_plus {
+    font-weight: bold;
+}
+
+.fas.fa-star.grey-star {
+    color: #F2F2F2;
+}
+
+/*Les plus populaires*/
+
+#hebergements_populaires > h2 > i {
+    color: black;
+}
+.titre_les_plus_populaires {
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hebergement_notation_populaire {
+    color:#0065FC;
+}
+
+
+.box_populaire_carte:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
+    }
+
+
+/*Activités à Marseille*/
+
+
+
+.activites a {
+    text-decoration: none;
+}
+
+.activite1:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
+.activite2:hover {
+        -ms-transform: scale(1.02); /* IE 9 */
+        -webkit-transform: scale(1.02); /* Safari 3-8 */
+        transform: scale(1.02);
+ }
+
+ .activite3:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
+    }
+
+.activite4:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
+    }
+
+.activite5:hover {
+        -ms-transform: scale(1.02); /* IE 9 */
+        -webkit-transform: scale(1.02); /* Safari 3-8 */
+        transform: scale(1.02);
+        }
+
+.activite6:hover {
+            -ms-transform: scale(1.02); /* IE 9 */
+            -webkit-transform: scale(1.02); /* Safari 3-8 */
+            transform: scale(1.02);
+            }
+/* Titre Activité */
+  
+.activites h2 {
+    FONT-SIZE: 17px;
+    font-weight: bold;  
+    color: black;
+    margin-left: 10px;
+
+ }
+
+ /*Footer*/
+
+ body > div > footer > div.a_propos > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+ 
+body > div > footer > div.nos_hebergements > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+ 
+body > div > footer > div.assistance > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+body > div > footer > div > ul > li > a {
+
+    text-decoration: none;
+    color:black;
+}
+    
+
+.footer {
+
+    background-color: #f2f2f2;
+   
+    line-height: 2em;
+    
+}
