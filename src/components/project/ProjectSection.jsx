@@ -16,7 +16,7 @@ import zara from "../../imgProject/zara.png"
 const displayProjects = [
   {
     url: 'https://site-kanap-git-master-fkz.vercel.app/',
-    nom: 'Kanap',
+    nom: 'Furniture website',
     img: kanap,
   },
   {
@@ -26,17 +26,17 @@ const displayProjects = [
   },
   {
     url: 'https://f-kz.github.io/Twitch-Clone/',
-    nom: 'TwitchClone',
+    nom: 'Twitch clone',
     img: twitch,
   },
   {
     url: 'https://f-kz.github.io/ZARA/',
-    nom: 'Zara',
+    nom: 'PrestaShop',
     img: zara,
   },
   {
     url: 'https://f-kz.github.io/Reservia/',
-    nom: 'Marseille',
+    nom: 'Site de reservation',
     img: marseille,
   },
 ]
@@ -65,7 +65,7 @@ export const ProjectSection = () => {
 
   return (
     <SectionWrapper title="Projects">
-      <div className="flex flex-wrap w-full justify-between content-between">
+      <div className="flex flex-wrap w-full justify-evenly content-between ">
         {displayProjects?.map((repository) => {
           return <Projet key={repository.nom}
            {...repository}/>

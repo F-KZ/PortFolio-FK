@@ -63,7 +63,7 @@ export const Skills = () => {
         
       
         
-        <div ref={JS} className={clsx(" xl:px-0 opacity-0 flex flex-col sm:px-3  pb-3 ")}>
+        <div ref={JS} className={clsx(" xl:px-0 opacity-0 flex flex-col px-2 pb-3 ")}>
         { active ? JS.current.classList.add( [styles.fade], [styles.transformation],[styles.zero]) : null  }
           <Image 
           src={js}
@@ -131,7 +131,7 @@ export const Skills = () => {
           width={80} 
           height={80} 
           alt="" />
-          <span>Fastify & Express</span>
+          <span>Fastify</span>
         </div>
 
         <div ref={GIT} className={clsx(" xl:px-0 opacity-0 flex flex-col px-2 pb-3")}>

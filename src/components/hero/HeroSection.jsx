@@ -48,9 +48,8 @@ export const HeroSection = () => {
           
         </h1>
         <p className=" text-xl">
-          <b>Apprenti React.</b> I’m a software developer that make thing on
-          internet, very happy to see your here, place holder please fill
-          something here please fill something here.
+          <b>Hello i am Franck Kanza !</b>  <br/> person entitled of a Master's degree in Web Architect, but above all passionate about the world of development
+          I am now looking to put my knowledge into practice in order to carry out your projects.
         </p>
       </div>
     </div>
