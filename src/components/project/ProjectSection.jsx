@@ -42,12 +42,12 @@ const displayProjects = [
 ]
 
 export const ProjectSection = () => {
-  const [{status, data : repo , error}, dispatch] = useReducer(reducer,{ status : "idle" , data : null, error : null})
+  const [{status, data : displayProjects , error}, dispatch] = useReducer(reducer,{ status : "idle" , data : null, error : null})
   // GitHub Repository - Exercise
 
   useEffect(() => {
     dispatch({ type : "pending"})
-    fetch(getListOfUrlRepositoriesUrl(GITHUB_USERNAME))
+   // fetch(getListOfUrlRepositoriesUrl(GITHUB_USERNAME))
     .then((res) => res.json())
     .then((repo) => dispatch({ type : "resolved", data : repo}))
     .catch((error) => dispatch({ type : "rejected", error : error}))
