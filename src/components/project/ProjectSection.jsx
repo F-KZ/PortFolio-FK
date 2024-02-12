@@ -1,10 +1,10 @@
-import { useEffect, useReducer} from 'react';
+//import { useEffect, useReducer} from 'react';
 import { SectionWrapper } from '../atom/SectionWrapper';
 // import { Project } from './Project';
 //import { GITHUB_USERNAME } from '../../lib/config';
 //import { getListOfUrlRepositoriesUrl } from '../../lib/api-url';
 import { Loader } from '../atom/Loader/Loader'
-import { reducer } from '../../hooks/useFetch';
+//import { reducer } from '../../hooks/useFetch';
 import { Projet } from "./repoDisplay"
 import fashion from "../../imgProject/fashion.png"
 import kanap from "../../imgProject/kanap.png"
@@ -42,19 +42,14 @@ const displayProjects = [
 ]
 
 export const ProjectSection = () => {
-  const [{status , error}, dispatch] = useReducer(reducer,{ status : "idle" , data : null, error : null})
-  // GitHub Repository - Exercise
 
-  useEffect(() => {
-    dispatch({ type : "pending"})
+
+  try {
+    if(displayProjects === 'pending' || displayProjects ==='idle'){
+      return <Loader/>
+    }
     
-  },[]);
-
-  if(status === 'pending' || status ==='idle'){
-    return <Loader/>
-  }
-
-  if(error){
+  } catch (error) {
     return <p> error !</p>
   }
   
