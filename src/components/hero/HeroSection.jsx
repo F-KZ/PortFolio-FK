@@ -40,7 +40,7 @@ export const HeroSection = () => {
       */}
 
       <div className="flex flex-col gap-4 md:relative md:mr-16 ">
-        <h1 className="text-6xl drop-shadow-[0_0px_20px_rgba(0,0,0,0.25)] md:text-8xl w-full">
+        <h1 className="text-5xl drop-shadow-[0_0px_20px_rgba(0,0,0,0.25)] md:text-8xl w-full">
           I'm  {" "}
           <span className={[styles.text]}></span>
          
