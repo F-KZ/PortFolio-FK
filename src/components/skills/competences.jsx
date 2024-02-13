@@ -63,7 +63,7 @@ export const Skills = () => {
         
       
         
-        <div ref={JS} className={clsx(" xl:px-0 opacity-0 flex flex-col px-2 pb-3 ")}>
+        <div ref={JS} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3 ")}>
         { active ? JS.current.classList.add( [styles.fade], [styles.transformation],[styles.zero]) : null  }
           <Image 
           src={js}
@@ -74,7 +74,7 @@ export const Skills = () => {
           <span>JavaScript</span>
         </div>
         
-          <div ref={RJS} className={clsx("xl:px-0 opacity-0 flex flex-col px-2 pb-3 ")}>
+          <div ref={RJS} className={clsx("xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3 ")}>
         { active ? RJS.current.classList.add([styles.fade], [styles.transformation], [styles.un] ) : null  }
           <Image 
           src={rjs}
@@ -84,7 +84,7 @@ export const Skills = () => {
           <span>ReactJS</span>
         </div>
 
-        <div ref={NJS} className={clsx(" opacity-0 xl:px-0 flex flex-col px-2 pb-3 ")}>
+        <div ref={NJS} className={clsx(" lg:opacity-0 xl:px-0 flex flex-col px-2 pb-3 ")}>
         { active ? NJS.current.classList.add([styles.fade], [styles.transformation], [styles.deux]) : null  }
           <Image 
           src={njs}
@@ -94,7 +94,7 @@ export const Skills = () => {
           <span>NodeJS</span>
         </div>
 
-        <div ref={CSS} className={clsx("xl:px-0 opacity-0 flex flex-col px-2 pb-3  ")}>
+        <div ref={CSS} className={clsx("xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3  ")}>
         { active ? CSS.current.classList.add([styles.fade], [styles.transformation], [styles.trois]) : null  }
           <Image 
           src={css}
@@ -104,7 +104,7 @@ export const Skills = () => {
           <span>CSS</span>
         </div>
 
-        <div ref={HTML} className={clsx(" xl:px-0 opacity-0  flex flex-col px-2 pb-3 ")}>
+        <div ref={HTML} className={clsx(" xl:px-0 lg:opacity-0  flex flex-col px-2 pb-3 ")}>
         { active ? HTML.current.classList.add([styles.fade], [styles.transformation], [styles.quatre]) : null  }
           <Image 
           src={html}
@@ -114,7 +114,7 @@ export const Skills = () => {
           <span>HTML</span>
         </div>
 
-        <div ref={TWC} className={clsx(" xl:px-0 opacity-0 flex flex-col px-2 pb-3")}>
+        <div ref={TWC} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
         { active ? TWC.current.classList.add([styles.fade], [styles.transformation], [styles.cinq]) : null  }
           <Image 
           src={twc}
@@ -124,7 +124,7 @@ export const Skills = () => {
           <span>Tailwind</span>
         </div>
 
-        <div ref={FSTY} className={clsx(" xl:px-0 opacity-0 flex flex-col px-2 pb-3")}>
+        <div ref={FSTY} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
         { active ? FSTY.current.classList.add([styles.fade], [styles.transformation],[styles.six]) : null  }
           <Image 
           src={fsty}
@@ -134,7 +134,7 @@ export const Skills = () => {
           <span>Fastify</span>
         </div>
 
-        <div ref={GIT} className={clsx(" xl:px-0 opacity-0 flex flex-col px-2 pb-3")}>
+        <div ref={GIT} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
         { active ? GIT.current.classList.add([styles.fade], [styles.transformation],[styles.six]) : null  }
           <Image 
           src={git}

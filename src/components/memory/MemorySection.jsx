@@ -20,7 +20,8 @@ export const MemorySection = () => {
             <Reset/>
           </div>
         </div>
-      </MemoryContextProvider> : <Image src={memory} onClick={() => setShow(true)} width={400}  height={400} className="cursor-pointer"/>
+      </MemoryContextProvider> : <Image  data-aos="zoom-in"
+            data-aos-duration="1500" src={memory} onClick={() => setShow(true)} width={400}  height={400} className="cursor-pointer"/>
       }
     </SectionWrapper>
   );

@@ -9,7 +9,7 @@ export const HeroSection = () => {
 
 
   return (
-    <div data-aos="slide-left" data-aos-duration="1500" className="relative flex flex-col items-center w-full m-auto  gap-20">
+    <div data-aos="zoom-in" data-aos-duration="1500" className="relative flex flex-col items-center w-full m-auto  gap-20 ">
       <img
         src="/images/presentation.svg"
         alt="avatar"
@@ -47,7 +47,8 @@ export const HeroSection = () => {
             
           
         </h1>
-        <p className=" text-xl">
+        <p  data-aos="fade-up"
+              data-aos-delay="600" className=" text-xl">
           <b>Hello i am Franck Kanza !</b>  <br/> person entitled of a Master's degree in Web Architect, but above all passionate about the world of development
           I am now looking to put my knowledge into practice in order to carry out your projects.
         </p>

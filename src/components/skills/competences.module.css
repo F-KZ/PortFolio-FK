@@ -12,13 +12,14 @@
     }
     
 }
-
+@media (min-width: 1024px){
 .fade {
     animation: animate 5s forwards;
 }
 
 .transformation {
     transform: translate(0, -100px) rotate(360deg) scale(0,5)
+}
 }
 
 .trans {
