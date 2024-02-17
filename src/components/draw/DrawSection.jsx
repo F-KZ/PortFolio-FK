@@ -21,7 +21,7 @@ export const DrawSection = () => {
 
   return (
     <SectionWrapper title="Téléchargez mon CV !">
-      <Image onClick={() => {downloadFiles(PDF_CV)}} src={cvPic} className='cursor-pointer' height={200} width={150} />
+      <Image  onClick={() => {downloadFiles(PDF_CV)}} src={cvPic} className='cursor-pointer' height={200} width={150} />
     </SectionWrapper>
   );
 };

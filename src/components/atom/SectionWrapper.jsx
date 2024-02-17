@@ -10,7 +10,7 @@ import { Typography } from "./Typography";
  */
 export const SectionWrapper = ({ children, title }) => {
   return (
-    <div className="flex flex-col items-center gap-12 p-8 ">
+    <div className="flex flex-col items-center gap-12 p-8 " >
       <Typography id={title.replaceAll(" ", "-")} variant="h2">{title}</Typography>
       {children}
     </div>

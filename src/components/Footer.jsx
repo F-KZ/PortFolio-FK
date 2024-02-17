@@ -5,8 +5,8 @@ import { DrawSection } from './draw';
 
 export const Footer = () => {
   return (
-    <div className='lg:flex lg:justify-around lg:flex-row-reverse '>
-    <DrawSection/>
+    <div  className='lg:flex lg:justify-around lg:flex-row-reverse '>
+    <DrawSection />
     <footer className="flex flex-col items-center gap-8 p-4 p-8 lg:w-[500px] ">
       <Typography variant="h2">Contact me !</Typography>
       <div className="flex flex-col items-center gap-2">
