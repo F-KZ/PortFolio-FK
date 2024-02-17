@@ -3,7 +3,7 @@ import Image from 'next/image';
 import cvPic from "../../img/cvPic.png"
 
 
-const PDF_CV = " http://localhost:5173/CV.pdf"
+const PDF_CV = "https://port-folio-fkkp2cupy-fkz.vercel.app/CV.pdf"
 
 export const DrawSection = () => {
 
