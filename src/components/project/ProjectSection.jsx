@@ -1,8 +1,6 @@
 //import { useEffect, useReducer} from 'react';
 import { SectionWrapper } from '../atom/SectionWrapper';
 // import { Project } from './Project';
-//import { GITHUB_USERNAME } from '../../lib/config';
-//import { getListOfUrlRepositoriesUrl } from '../../lib/api-url';
 import { Loader } from '../atom/Loader/Loader'
 //import { reducer } from '../../hooks/useFetch';
 import { Projet } from "./repoDisplay"
