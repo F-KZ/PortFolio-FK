@@ -13,7 +13,7 @@ export const SOCIAL_NETWORKS = [
     icon: <SiTwitter />,
   },
   {
-    url: 'www.linkedin.com/in/franck-kanza-6849b4195',
+    url: 'https://www.linkedin.com/in/franck-kanza-6849b4195/',
     name: 'Linkedin',
     icon: <SiLinkedin />,
   },
