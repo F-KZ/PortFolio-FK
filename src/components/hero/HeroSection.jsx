@@ -11,7 +11,7 @@ export const HeroSection = () => {
   return (
     <div  className="relative flex flex-col items-center w-full m-auto  gap-20 ">
       <img
-        src="/images/presentation.jpg"
+        src="/images/presentation3.svg"
         alt="avatar"
       />
       {/* Hero - Exercise
