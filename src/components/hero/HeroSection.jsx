@@ -9,9 +9,9 @@ export const HeroSection = () => {
 
 
   return (
-    <div data-aos="zoom-in" data-aos-duration="1500" className="relative flex flex-col items-center w-full m-auto  gap-20 ">
+    <div  className="relative flex flex-col items-center w-full m-auto  gap-20 ">
       <img
-        src="/images/presentation.svg"
+        src="/images/presentation.jpg"
         alt="avatar"
       />
       {/* Hero - Exercise
