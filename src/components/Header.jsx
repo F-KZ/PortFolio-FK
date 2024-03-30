@@ -1,6 +1,6 @@
 import { FULL_NAME, SOCIAL_NETWORKS } from "../lib/config";
 import { SocialNetworks } from "./atom/SocialNetwork";
-//import { ToggleThemeButton } from "./ToggleThemeButton";
+import { ToggleThemeButton } from "./ToggleThemeButton";
 
 export const Header = () => {
   return (
@@ -9,7 +9,7 @@ export const Header = () => {
         {FULL_NAME}
       </span>
       <SocialNetworks className="md:ml-auto" socialNetworks={SOCIAL_NETWORKS} />
-     { /* <ToggleThemeButton /> */}
+      <ToggleThemeButton /> 
     </header>
   );
 };

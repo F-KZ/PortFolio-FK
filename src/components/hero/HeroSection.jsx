@@ -1,5 +1,7 @@
 
 import styles from "./hero.module.css"
+import FadeHome from "./homepage/fadeHome";
+import { TypeAnimation } from 'react-type-animation';
 //import styles from "./fade.module.css"
 
 
@@ -10,10 +12,7 @@ export const HeroSection = () => {
 
   return (
     <div  className="relative flex flex-col items-center w-full m-auto  gap-20 ">
-      <img
-        src="/images/presentation3.svg"
-        alt="avatar"
-      />
+     <FadeHome/>
       {/* Hero - Exercise
       <div className="flex flex-col gap-4 md:relative md:mr-16 w-full">
         <h1 className="text-6xl drop-shadow-[0_0px_20px_rgba(0,0,0,0.25)] md:text-8xl">
@@ -40,13 +39,23 @@ export const HeroSection = () => {
       */}
 
       <div className="flex flex-col gap-4 md:relative md:mr-16 ">
-        <h1 className="text-5xl drop-shadow-[0_0px_20px_rgba(0,0,0,0.25)] md:text-8xl w-full">
-          I'm  {" "}
-          <span className={[styles.text]}></span>
-         
-            
-          
-        </h1>
+      <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Je suis Developpeur',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'Je suis Disponible',
+        1000,
+        'Je suis Freelanceur',
+        1000,
+        'Je suis Franck Kanza',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
         <p  data-aos="fade-up"
               data-aos-delay="600" className=" text-xl">
           <b>Hello i am Franck Kanza !</b>  <br/> person entitled of a Master's degree in Web Architect, but above all passionate about the world of development
