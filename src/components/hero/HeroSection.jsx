@@ -1,5 +1,5 @@
 
-import styles from "./hero.module.css"
+//import styles from "./hero.module.css"
 import FadeHome from "./homepage/fadeHome";
 import { TypeAnimation } from 'react-type-animation';
 //import styles from "./fade.module.css"
