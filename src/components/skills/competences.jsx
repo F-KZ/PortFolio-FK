@@ -5,7 +5,7 @@ import njs from "../../img/njs.svg"
 import css from "../../img/css.svg"
 import html from "../../img/html.svg"
 import twc from "../../img/twc.svg"
-import fsty from "../../img/fastify.svg"
+import fsty from "../../img/mongo.svg"
 import git from "../../img/git.svg"
 import main from "../../img/main.svg"
 import clsx from "clsx";
@@ -133,7 +133,7 @@ export const Skills = () => {
           width={80} 
           height={80} 
           alt="" />
-          <span>Fastify</span>
+          <span>Mongo DB</span>
         </div>
 
         <div ref={GIT} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
