@@ -3,7 +3,7 @@ import Image from 'next/image';
 import cvPic from "../../img/cvPic.png"
 
 
-const PDF_CV = "http://localhost:5173/Franck2024.pdf"
+const PDF_CV = "http://localhost:5173/Franck.pdf"
 
 export const DrawSection = () => {
 
