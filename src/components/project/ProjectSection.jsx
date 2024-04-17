@@ -6,7 +6,7 @@ import { Loader } from '../atom/Loader/Loader'
 import { Projet } from "./repoDisplay"
 import fashion from "../../imgProject/fashion.png"
 import kanap from "../../imgProject/kanap.png"
-import marseille from "../../imgProject/marseille.png"
+import horizon from "../../imgProject/horizon.png"
 import twitch from "../../imgProject/twitch.png"
 import zara from "../../imgProject/zara.png"
 
@@ -29,13 +29,13 @@ const displayProjects = [
   },
   {
     url: 'https://f-kz.github.io/ZARA/',
-    nom: 'PrestaShop',
+    nom: 'PrestaShop ( pour mobile )',
     img: zara,
   },
   {
-    url: 'https://f-kz.github.io/Reservia/',
-    nom: 'Site de reservation',
-    img: marseille,
+    url: 'https://www.horizontransports.fr/',
+    nom: 'Projet client',
+    img: horizon,
   },
 ]
 
