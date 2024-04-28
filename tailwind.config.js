@@ -4,6 +4,15 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+    /* {  animation : {
+        "loop-scroll" : "loop-scroll 50s linear infinite "
+      },
+      keyframes : {
+        "loop-scroll ": {
+          from : { transform : "translateX(0)"},
+          to : { transform : "translateX(- 100%)"}
+        }
+      }, }*/
       gridTemplateColumns: {
         "auto-fill-200-300": "repeat(auto-fill, minmax(200px, 1fr))",
       },
