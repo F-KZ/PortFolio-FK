@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 // dynamic import Memory Section
 const DynamicMemorySection = dynamic(() => import("../src/components/memory"), {
   ssr: false,
