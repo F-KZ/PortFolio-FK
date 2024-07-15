@@ -76,7 +76,7 @@ export const ProjectSection = () => {
     <SectionWrapper title="Projects">
       <div className="relative mb-4 overflow-hidden">
       <div className="relative w-full flex transition-transform duration-1000" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-        {displayProjects.map((product, index) => (
+        {displayProjects.map((product) => (
           <div key={product._id} className="w-full flex-shrink-0">
             <a href={product.url}>
               <div className="relative">
