@@ -7,7 +7,7 @@ import { Projet } from "./repoDisplay"
 import fashion from "../../imgProject/fashion.png"
 import kanap from "../../imgProject/kanap.png"
 import horizon from "../../imgProject/horizon.png"
-import twitch from "../../imgProject/twitch.png"
+import eShop from "../../imgProject/eShop.png"
 import zara from "../../imgProject/zara.png"
 
 
@@ -23,9 +23,9 @@ const displayProjects = [
     img: fashion,
   },
   {
-    url: 'https://f-kz.github.io/Twitch-Clone/',
-    nom: 'Twitch clone',
-    img: twitch,
+    url: 'https://electronic-shop-front.vercel.app/',
+    nom: 'E-Shopping',
+    img: eShop,
   },
   {
     url: 'https://f-kz.github.io/ZARA/',
