@@ -8,7 +8,7 @@ import kanap from "../../imgProject/kanap.png"
 import horizon from "../../imgProject/horizon.png"
 import eShop from "../../imgProject/eShop.png"
 import zara from "../../imgProject/zara.png"
-import { Link } from 'react-router-dom';
+
 import Image from 'next/image';
 
 
