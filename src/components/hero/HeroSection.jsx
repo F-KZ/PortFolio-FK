@@ -58,8 +58,7 @@ export const HeroSection = () => {
     />
         <p  data-aos="fade-up"
               data-aos-delay="600" className=" text-xl">
-          <b>Hello i am Franck Kanza !</b>  <br/> person entitled of a Master's degree in Web Architect, but above all passionate about the world of development
-          I am now looking to put my knowledge into practice in order to carry out your projects.
+          <b>Bonjour je suis Franck Kanza, </b>  <br/>  développeur MERN stack passionné avec plus de 3 ans d'expérience dans la conception, le développement et la mise en œuvre d'applications web. J'ai une solide maîtrise des technologies MongoDB, Express.js, React.js et Node.js, et je suis toujours à la recherche de nouvelles opportunités pour améliorer mes compétences et relever de nouveaux défis..
         </p>
       </div>
     </div>
