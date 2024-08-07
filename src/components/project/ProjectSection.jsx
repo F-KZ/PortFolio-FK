@@ -4,19 +4,21 @@ import { SectionWrapper } from '../atom/SectionWrapper';
 import { Loader } from '../atom/Loader/Loader'
 //import { reducer } from '../../hooks/useFetch';
 import fashion from "../../imgProject/fashion.png"
-import kanap from "../../imgProject/kanap.png"
+//import kanap from "../../imgProject/kanap.png"
 import horizon from "../../imgProject/horizon.png"
 import eShop from "../../imgProject/eShop.png"
 import zara from "../../imgProject/zara.png"
+import tech from "../../imgProject/techLines.png"
+import { FcInfo } from "react-icons/fc";
 
 import Image from 'next/image';
 
 
 const displayProjects = [
   {
-    url: 'https://site-kanap-git-master-fkz.vercel.app/',
-    nom: 'Furniture website',
-    img: kanap,
+    url: 'https://project3-front-chi.vercel.app/',
+    nom: 'e-shop pour mobile',
+    img: tech,
   },
   {
     url: 'https://f-kz.github.io/E-commerce-Fashion/',
@@ -74,6 +76,7 @@ export const ProjectSection = () => {
 
   return (
     <SectionWrapper title="Projects">
+    <span className='flex flex-row items-center gap-2 wrap'> <FcInfo/> à noter que ce sont des prototypes non finalisés servant uniquement de modèles d'exposition  </span>
       <div className="relative mb-4 overflow-hidden">
       <div className="relative w-full flex transition-transform duration-1000" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         {displayProjects.map((product) => (
