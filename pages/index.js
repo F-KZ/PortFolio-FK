@@ -9,6 +9,8 @@ import { Skills } from "../src/components/skills";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SEO from "../next-seo.config";
+import { DefaultSeo } from 'next-seo';
 
 
 // dynamic import Memory Section
@@ -28,9 +30,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <Head>
-        <title>Portfolio</title>
-      </Head>
+    <DefaultSeo {...SEO} />
      
         <Header />
         <HeroSection />

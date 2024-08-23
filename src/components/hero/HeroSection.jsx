@@ -46,7 +46,7 @@ export const HeroSection = () => {
         1000, // wait 1s before replacing "Mice" with "Hamsters"
         'I am Available',
         1000,
-        'I am Freelancer',
+        'I am Freelance',
         1000,
         'I am Franck Kanza',
         1000
@@ -58,7 +58,7 @@ export const HeroSection = () => {
     />
         <p  data-aos="fade-up"
               data-aos-delay="600" className=" text-xl">
-          <b>Bonjour je suis Franck Kanza, </b>  <br/>  développeur MERN stack passionné avec plus de 3 ans d'expérience dans la conception, le développement et la mise en œuvre d'applications web. J'ai une solide maîtrise des technologies MongoDB, Express.js, React.js et Node.js, et je suis toujours à la recherche de nouvelles opportunités pour améliorer mes compétences et relever de nouveaux défis..
+          <b>Bonjour je suis Franck Kanza, </b>  <br/>  développeur freelance passionné avec plus de 3 ans d'expérience dans la conception, le développement et la mise en œuvre d'applications web. J'ai une solide maîtrise des technologies MongoDB, Express.js, React.js et Node.js, et je suis toujours à la recherche de nouvelles opportunités pour améliorer mes compétences et relever de nouveaux défis..
         </p>
       </div>
     </div>
