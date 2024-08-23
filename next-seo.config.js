@@ -5,7 +5,7 @@ const SEO = {
     description: " Création de site web et d'applications",
     openGraph: {
       type: 'website',
-      locale: 'en_US',
+      locale: 'fr',
       url: 'https://www.franck-kanza.fr/',
       site_name: 'franck-kanza',
     }
