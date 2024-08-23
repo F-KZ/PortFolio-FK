@@ -1,5 +1,4 @@
 import dynamic from "next/dynamic";
-import Head from "next/head";
 //import { CommentSection } from "../src/components/comment";
 import { Footer } from "../src/components/Footer";
 import { Header } from "../src/components/Header";
