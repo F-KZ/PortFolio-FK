@@ -83,7 +83,7 @@ export const ProjectSection = () => {
           <div key={product._id} className="w-full flex-shrink-0">
             <a href={product.url}>
               <div className="relative">
-                <Image src={product.img} alt={product.name} className="w-full" priority />
+                <Image src={product.img} alt="capture d'écran representant le site web" className="w-full" priority />
                 <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 w-full p-4">
                   <h2 className="text-white text-right">
                     {product.nom}

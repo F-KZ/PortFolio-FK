@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import iphone from '../homeImg/iphone2.svg'
+import iphone from '../homeImg/iphone2new.svg'
 import google from '../homeImg/google.svg'
 import apple from '../homeImg/apple.svg'
 
@@ -17,8 +17,6 @@ export const FadeHome = () => {
         <div className='flex flex-col'>
         <div className='relative'>
         <Image
-        width={500}  // Replace with the actual width
-        height={500} // Replace with the actual height
         priority
         src={iphone}
         alt="image d'un portable de la marque iphone"
