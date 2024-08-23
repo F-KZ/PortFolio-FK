@@ -71,7 +71,7 @@ export const Skills = () => {
           src={js}
           width={80} 
           height={80} 
-          alt="" 
+          alt=" logo Javascript" 
           />
           <span>JavaScript</span>
         </div>
@@ -82,7 +82,7 @@ export const Skills = () => {
           src={rjs}
           width={80} 
           height={80} 
-          alt="" />
+          alt="Logo ReactJS" />
           <span>ReactJS</span>
         </div>
 
@@ -92,7 +92,7 @@ export const Skills = () => {
           src={njs}
           width={80} 
           height={80} 
-          alt="" />
+          alt="Logo NodeJS" />
           <span>NodeJS</span>
         </div>
 
@@ -102,7 +102,7 @@ export const Skills = () => {
           src={css}
           width={80} 
           height={80} 
-          alt="" />
+          alt=" Logo CSS" />
           <span>CSS</span>
         </div>
 
@@ -112,7 +112,7 @@ export const Skills = () => {
           src={html}
           width={80} 
           height={80} 
-          alt="" />
+          alt="Logo HTML" />
           <span>HTML</span>
         </div>
 
@@ -122,7 +122,7 @@ export const Skills = () => {
           src={twc}
           width={80} 
           height={80} 
-          alt="" />
+          alt="Logo Tailwind" />
           <span>Tailwind</span>
         </div>
 
@@ -132,7 +132,7 @@ export const Skills = () => {
           src={fsty}
           width={80} 
           height={80} 
-          alt="" />
+          alt=" Logo MongoDB" />
           <span>Mongo DB</span>
         </div>
 
@@ -142,7 +142,7 @@ export const Skills = () => {
           src={git}
           width={80} 
           height={80} 
-          alt="" />
+          alt=" Logo GIT" />
           <span>GIT</span>
         </div>
 

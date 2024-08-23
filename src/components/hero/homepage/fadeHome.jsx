@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import iphone from '../homeImg/iphone3.png'
+import iphone from '../homeImg/iphone2.svg'
 import google from '../homeImg/google.svg'
 import apple from '../homeImg/apple.svg'
 
@@ -17,10 +17,11 @@ export const FadeHome = () => {
         <div className='flex flex-col'>
         <div className='relative'>
         <Image
-        width={500}
-        height={500}
+        width={500}  // Replace with the actual width
+        height={500} // Replace with the actual height
+        priority
         src={iphone}
-        alt="iphone"
+        alt="image d'un portable de la marque iphone"
       />
       <div className='flex flex-col justify-evenly items-center absolute top-[70%] left-[20%]'>
       <Image
@@ -28,14 +29,14 @@ export const FadeHome = () => {
         width={100}
         height={50}
         src={google}
-        alt="google"
+        alt="logo google"
       />
         <Image
         data-aos="fade-right" data-aos-duration="1500"
          width={100}
         height={50}
         src={apple}
-        alt="apple"
+        alt="logo apple"
       />
       </div>
       </div>

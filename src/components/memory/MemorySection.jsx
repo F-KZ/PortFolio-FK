@@ -21,7 +21,7 @@ export const MemorySection = () => {
           </div>
         </div>
       </MemoryContextProvider> : <Image  data-aos="zoom-in"
-            data-aos-duration="1500" src={memory} onClick={() => setShow(true)} width={400}  height={400} className="cursor-pointer"/>
+            data-aos-duration="1500" src={memory} onClick={() => setShow(true)} width={400}  height={400} className="cursor-pointer" alt="image d'un cerveau à l'éffigie du jeu"/>
       }
     </SectionWrapper>
   );
