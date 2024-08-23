@@ -20,7 +20,6 @@ export const FadeHome = () => {
         priority
         src={iphone}
         alt="image d'un portable de la marque iphone"
-        className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
       />
       <div className='flex flex-col justify-evenly items-center absolute top-[70%] left-[20%]'>
       <Image
