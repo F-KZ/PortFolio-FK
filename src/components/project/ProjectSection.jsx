@@ -87,7 +87,7 @@ export const ProjectSection = () => {
                 src={product.img} 
                 alt="capture d'écran representant le site web"
                  className="w-full"
-                 priority />
+                 loading="lazy"  />
                 <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 w-full p-4">
                   <h2 className="text-white text-right">
                     {product.nom}
