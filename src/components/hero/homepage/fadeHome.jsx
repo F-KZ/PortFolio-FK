@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import iphone from '../homeImg/iphone2.svg'
+import iphone from '../homeImg/iphone3.png'
 import google from '../homeImg/google.svg'
 import apple from '../homeImg/apple.svg'
 
