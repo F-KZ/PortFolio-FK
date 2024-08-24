@@ -13,6 +13,7 @@ export const SocialNetworks = ({ socialNetworks, className }) => {
         <a
           key={url}
           href={url}
+          rel="nofollow"
           className="text-primary text flex items-center gap-1 text-base"
         >
           {icon} <span>{name}</span>
