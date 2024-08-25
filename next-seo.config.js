@@ -1,7 +1,7 @@
 
 // next-seo.config.js
 const SEO = {
-    title: "Développeur Freelance",
+    title: "Développeur Web",
     description: " Création de site web et d'applications",
     openGraph: {
       type: 'website',
