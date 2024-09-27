@@ -7,7 +7,7 @@ import fashion from "../../imgProject/fashion.png"
 //import kanap from "../../imgProject/kanap.png"
 import horizon from "../../imgProject/horizon.png"
 import eShop from "../../imgProject/eShop.png"
-import zara from "../../imgProject/zara.png"
+//import zara from "../../imgProject/zara.png"
 import tech from "../../imgProject/techLines.png"
 import property from "../../imgProject/Property.png"
 import { FcInfo } from "react-icons/fc";
