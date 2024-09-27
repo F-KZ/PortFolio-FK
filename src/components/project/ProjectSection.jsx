@@ -9,6 +9,7 @@ import horizon from "../../imgProject/horizon.png"
 import eShop from "../../imgProject/eShop.png"
 import zara from "../../imgProject/zara.png"
 import tech from "../../imgProject/techLines.png"
+import property from "../../imgProject/Property.png"
 import { FcInfo } from "react-icons/fc";
 
 import Image from 'next/image';
@@ -31,13 +32,13 @@ const displayProjects = [
     img: eShop,
   },
   {
-    url: 'https://f-kz.github.io/ZARA/',
-    nom: 'PrestaShop ( pour mobile )',
-    img: zara,
+    url: 'https://next-js-0-fkz.vercel.app/',
+    nom: 'location de maison',
+    img: property,
   },
   {
     url: 'https://www.horizontransports.fr/',
-    nom: 'Projet client',
+    nom: 'site formation VTC',
     img: horizon,
   },
 ]

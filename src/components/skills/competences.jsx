@@ -6,7 +6,7 @@ import css from "../../img/css.svg"
 import html from "../../img/html.svg"
 import twc from "../../img/twc.svg"
 import fsty from "../../img/mongo.svg"
-import git from "../../img/git.svg"
+import git from "../../img/next-js.svg"
 import main from "../../img/main.svg"
 import clsx from "clsx";
 import Image from "next/image";
@@ -143,7 +143,7 @@ export const Skills = () => {
           width={80} 
           height={80} 
           alt=" Logo GIT" />
-          <span>GIT</span>
+          <span>Next JS</span>
         </div>
 
 
