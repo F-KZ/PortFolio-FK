@@ -11,7 +11,7 @@ export const MemorySection = () => {
   const [ show, setShow ] = useState(false)
 
   return (
-    <SectionWrapper title="You're boring ? Let's play a game !">
+    <SectionWrapper title=" A vous de jouer !">
       { show ? <MemoryContextProvider>
         <div className="flex flex-col items-center gap-14">
           <div className="flex flex-col items-center gap-2">

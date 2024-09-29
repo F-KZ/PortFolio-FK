@@ -61,7 +61,7 @@ export const Skills = () => {
         <div  className="flex flex-wrap space justify-evenly items-center text-center">
         <h2 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="2000" className="text-center w-full pb-[55px]">mon Stack</h2>
+     data-aos-duration="2000" className="text-center w-full pb-[55px]">Mes Compétences</h2>
         
       
         

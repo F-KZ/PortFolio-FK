@@ -76,7 +76,7 @@ export const ProjectSection = () => {
   
 
   return (
-    <SectionWrapper title="Projects">
+    <SectionWrapper title="Mes Projets">
     <span className='flex flex-row items-center gap-2 wrap'> <FcInfo/> à noter que ce sont des prototypes non finalisés servant uniquement de modèles d'exposition  </span>
       <div className="relative mb-4 overflow-hidden">
       <div className="relative w-full flex transition-transform duration-1000" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
