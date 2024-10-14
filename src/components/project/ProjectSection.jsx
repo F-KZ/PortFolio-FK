@@ -21,12 +21,6 @@ const displayProjects = [
     nom: 'e-shop pour mobile',
     img: tech,
   },
-  {/*
-    url: 'https://f-kz.github.io/E-commerce-Fashion/',
-    nom: 'E-Commerce',
-    img: fashion,
-    */
-  },
   {
     url: 'https://electronic-shop-front.vercel.app/',
     nom: 'E-Shopping',
