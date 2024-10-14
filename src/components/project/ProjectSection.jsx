@@ -3,7 +3,7 @@ import { SectionWrapper } from '../atom/SectionWrapper';
 // import { Project } from './Project';
 import { Loader } from '../atom/Loader/Loader'
 //import { reducer } from '../../hooks/useFetch';
-import fashion from "../../imgProject/fashion.png"
+//import fashion from "../../imgProject/fashion.png"
 //import kanap from "../../imgProject/kanap.png"
 import horizon from "../../imgProject/horizon.png"
 import eShop from "../../imgProject/eShop.png"
@@ -21,10 +21,11 @@ const displayProjects = [
     nom: 'e-shop pour mobile',
     img: tech,
   },
-  {
+  {/*
     url: 'https://f-kz.github.io/E-commerce-Fashion/',
     nom: 'E-Commerce',
     img: fashion,
+    */
   },
   {
     url: 'https://electronic-shop-front.vercel.app/',
