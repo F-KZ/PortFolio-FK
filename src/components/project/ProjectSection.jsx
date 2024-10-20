@@ -38,7 +38,7 @@ const displayProjects = [
     img: eShop,
   },
   {
-    url: 'twitch-clone-fkz.vercel.app/',
+    url: 'https://twitch-clone-rho-nine.vercel.app/',
     nom: 'Twitch',
     img: twitch,
   },
