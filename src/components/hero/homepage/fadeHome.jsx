@@ -3,14 +3,14 @@ import { TypeAnimation } from 'react-type-animation';
 import { DrawSection } from '../../draw/DrawSection';
 import { SocialNetworks } from '../../atom/SocialNetwork';
 import ImageHome from './ImageHome';
-import { SectionWrapper } from '../../atom/SectionWrapper';
+
 
 
 export const FadeHome = () => {
     return (
         <div className='flex flex-col-reverse lg:flex-row flex-wrap w-full justify-around items-center'>
          <div className='h-full flex flex-col lg:text-left  text-center justify-center gap-8 lg:w-1/2 pb-16'>
-        <SectionWrapper title="Developpeur Web Fullstack"/>
+        <h1 className='text-3xl md:text-4xl font-extrabold text-lime-400 drop-shadow-[0_0px_20px_#fff]'>Developpeur Web Fullstack</h1>
         <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially

@@ -82,8 +82,8 @@ export const ProjectSection = () => {
                   <Image
                     src={project.img}
                     alt={project.nom}
-                    width={300} // Ajustez selon vos besoins
-                    height={200}
+                    width={500} // Ajustez selon vos besoins
+                    height={300}
                     className="w-full h-full object-cover rounded-lg"
                     loading="lazy"
                   />

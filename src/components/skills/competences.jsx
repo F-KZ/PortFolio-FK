@@ -6,8 +6,8 @@ import css from "../../img/css.svg"
 import html from "../../img/html.svg"
 import tailwind from "../../img/twc.svg"
 import mongo from "../../img/mongo.svg"
-import git from "../../img/next-js.svg"
-import next from "../../img/main.svg"
+import git from "../../img/git.svg"
+import next from "../../img/next-js.svg"
 import Image from "next/image";
 import { SectionWrapper } from "../atom/SectionWrapper"
 
@@ -39,7 +39,7 @@ return (
          alt={`${skill.name} logo`} className="w-full h-full object-contain" />
       </div>
     ))}
-    {skillsLoop.map((skill, index) => (
+    {skills.map((skill, index) => (
       <div key={`copy-${index}`} className="flex-shrink-0 w-32 h-32 mx-4">
         <Image 
         src={skill.logo} 
