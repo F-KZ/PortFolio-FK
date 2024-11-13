@@ -25,7 +25,7 @@ const skills = [
 ];
 
 export const Skills = () => {
-  const skillsLoop = skills.slice(0, -1); 
+ { /*const skillsLoop = skills.slice(0, -1);*/ }
 
 return (
   <SectionWrapper title="Mes Compétences Techniques">
