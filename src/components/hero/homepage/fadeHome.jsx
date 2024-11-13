@@ -1,50 +1,47 @@
 import React from 'react';
-import Image from 'next/image';
-import iphone from '../homeImg/iphone4.png'
-import google from '../homeImg/google.svg'
-import apple from '../homeImg/apple.svg'
+import { TypeAnimation } from 'react-type-animation';
+import { DrawSection } from '../../draw/DrawSection';
+import { SocialNetworks } from '../../atom/SocialNetwork';
+import ImageHome from './ImageHome';
+import { SectionWrapper } from '../../atom/SectionWrapper';
 
 
 export const FadeHome = () => {
     return (
-        <div className='flex flex-row flex-wrap w-full justify-around items-center'>
-        <div  data-aos="fade-right" className='flex flex-col space-y-4 items-center'>
-        <h1 className='py-4 text-2xl' data-aos="fade-right" data-aos-duration="1500">DEVELOPPEUR WEB FREELANCE</h1>
-        <span data-aos="fade-right" data-aos-duration="1700" className='border-red-900 border-2 rounded-full px-2 py-1'> E-commerce</span>
-        <span data-aos="fade-right" data-aos-duration="2000" className='border-red-900 border-2 rounded-full px-2 py-1'> Website</span>
-        <span data-aos="fade-right" data-aos-duration="2300" className='border-red-900 border-2 rounded-full px-2 py-1'> Applications</span>
-        </div>
-        <div className='flex flex-col'>
-        <div className='relative'>
-        <Image
-        priority
-        src={iphone}
-        alt="image d'un portable de la marque iphone."
-        width={300}
-        height={500}
-        className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-      />
-      <div className='flex flex-col justify-evenly items-center absolute top-[70%] left-[20%]'>
-      <Image
-      data-aos="fade-right" data-aos-duration="1000"
-        width={100}
-        height={50}
-        src={google}
-        alt="logo google"
-        loading='lazy'
-      />
-        <Image
-        data-aos="fade-right" data-aos-duration="1500"
-         width={100}
-        height={50}
-        src={apple}
-        alt="logo apple"
-         loading='lazy'
-      />
-      </div>
-      </div>
-        </div>
+        <div className='flex flex-col-reverse lg:flex-row flex-wrap w-full justify-around items-center'>
+         <div className='h-full flex flex-col lg:text-left  text-center justify-center gap-8 lg:w-1/2 pb-16'>
+        <SectionWrapper title="Developpeur Web Fullstack"/>
+        <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'I am Developper',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'I am Available',
+        1000,
+        'I am Freelance',
+        1000,
+        'I am Franck Kanza',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block',  }}
+      repeat={Infinity}
+    />
+    <p className='text-justify px-12 lg:px-0'>
+    Développeur freelance passionné avec plus de 3 ans d'expérience dans la conception, le développement et la mise en œuvre d'applications web. je propose des services sur mesure pour répondre aux besoins spécifiques de mes clients..
+    </p>
 
+    
+            <div className='flex flex-row flex-wrap gap-8 lg:justify-start justify-center'>
+              <DrawSection/>
+              <SocialNetworks/>
+            </div>
+        </div>
+        <div>
+        <ImageHome/>
+        </div>
+       
             
         </div>
     );

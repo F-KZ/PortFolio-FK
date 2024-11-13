@@ -19,9 +19,5 @@ export const DrawSection = () => {
   
   
 
-  return (
-    <SectionWrapper title="Téléchargez mon CV !">
-      <Image  onClick={() => {downloadFiles(PDF_CV)}} src={cvPic} className='cursor-pointer' height={200} width={150} alt='photo de mon CV' />
-    </SectionWrapper>
-  );
+  return  <button className="inline-block px-8 py-2 bg-lime-400 border-2 border-lime-400 rounded-full shadow-[0_0_10px_rgba(124,240,61,1)] text-[#1f242d] text-[16px] font-semibold cursor-pointer transition duration-500 hover:bg-transparent hover:text-lime-400"  onClick={() => {downloadFiles(PDF_CV)}} alt='CV'> Voir mon CV</button>;
 };

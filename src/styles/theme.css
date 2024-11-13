@@ -3,28 +3,25 @@
 @tailwind utilities;
 
 #app {
-  --color-background: 242 230 254;
-  --color-paper: 255 195 248;
-  --color-text-primary: 0 0 0;
-  --color-text-secondary: 38 38 38;
-
-  --color-primary: 234 0 255;
-  --color-secondary: 4 217 255;
-}
-
-#app.dark {
-  --color-background: 24 3 46;
+  --color-background: #0e0e0e;
   --color-paper: 40 5 75;
-  --color-text-primary: 255 255 255;
+  --color-text-primary: #c667e4;
   --color-text-secondary: 217 217 217;
 
   --color-primary: 234 0 255;
   --color-secondary: 4 217 255;
 }
 
-#app {
-  @apply bg-background text-skin-primary;
+#app.dark {
+  --color-background: #0e0e0e;
+  --color-paper: 40 5 75;
+  --color-text-primary: #c667e4;
+  --color-text-secondary: 217 217 217;
+
+  --color-primary: 234 0 255;
+  --color-secondary: 4 217 255;
 }
+
 
 * {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;

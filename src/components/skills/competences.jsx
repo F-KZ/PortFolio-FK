@@ -1,159 +1,58 @@
-import { useEffect, useState, useRef } from "react"
+
 import js from "../../img/js.svg"
-import rjs from "../../img/rjs.svg"
+import react from "../../img/rjs.svg"
 import njs from "../../img/njs.svg"
 import css from "../../img/css.svg"
 import html from "../../img/html.svg"
-import twc from "../../img/twc.svg"
-import fsty from "../../img/mongo.svg"
+import tailwind from "../../img/twc.svg"
+import mongo from "../../img/mongo.svg"
 import git from "../../img/next-js.svg"
-import main from "../../img/main.svg"
-import clsx from "clsx";
+import next from "../../img/main.svg"
 import Image from "next/image";
-import styles from "./competences.module.css";
+import { SectionWrapper } from "../atom/SectionWrapper"
 
-const useRefSkills = () => {
-  const GIT = useRef(null)
-  const JS = useRef(null)
-  const RJS = useRef(null)
-  const NJS = useRef(null)
-  const CSS = useRef(null)
-  const HTML = useRef(null)
-  const TWC = useRef(null)
-  const FSTY = useRef(null)
-  
-  return { JS, RJS, NJS, CSS, HTML, TWC, FSTY, GIT }
 
-}
-
-export const Title = () => {
-
-  
-return <Image className={clsx(" flex justify-center items-center absolute w-[80px] h-[80px] rounded-[50%] pointer z-50")}
- src={main}
-  width={150}
-  height={150}
- />
-}
+const skills = [
+  { name: "Next.js", logo: next },
+  { name: "JavaScript", logo: js },
+  { name: "React", logo: react },
+  { name: "MongoDB", logo: mongo },
+  { name: "Git", logo: git },
+  { name: "Node.js", logo: njs },
+  { name: "HTML", logo: html },
+  { name: "CSS", logo: css },
+  { name: "Tailwind CSS", logo: tailwind },
+];
 
 export const Skills = () => {
-  const [ active, setActive ] = useState(false)
-  const { JS, RJS, NJS, CSS, HTML, TWC, FSTY, GIT } = useRefSkills()
+  const skillsLoop = skills.slice(0, -1); 
 
-  
-    
-
-    useEffect(() => {
-      setTimeout(() => {
-        setActive(true)
-      }, 4500 );
-      return () => {
-        
-      };
-    }, []);
-  
-  
-   
-
-    return (
-      <>
-        
-        <div  className="flex flex-wrap space justify-evenly items-center text-center">
-        <h2 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="2000" className="text-center w-full pb-[55px]">Mes Compétences</h2>
-        
-      
-        
-        <div ref={JS} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3 ")}>
-        { active ? JS.current.classList.add( [styles.fade], [styles.transformation],[styles.zero]) : null  }
-          <Image 
-          src={js}
-          width={80} 
-          height={80} 
-          alt=" logo Javascript" 
-          />
-          <span>JavaScript</span>
-        </div>
-        
-          <div ref={RJS} className={clsx("xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3 ")}>
-        { active ? RJS.current.classList.add([styles.fade], [styles.transformation], [styles.un] ) : null  }
-          <Image 
-          src={rjs}
-          width={80} 
-          height={80} 
-          alt="Logo ReactJS" />
-          <span>ReactJS</span>
-        </div>
-
-        <div ref={NJS} className={clsx(" lg:opacity-0 xl:px-0 flex flex-col px-2 pb-3 ")}>
-        { active ? NJS.current.classList.add([styles.fade], [styles.transformation], [styles.deux]) : null  }
-          <Image 
-          src={njs}
-          width={80} 
-          height={80} 
-          alt="Logo NodeJS" />
-          <span>NodeJS</span>
-        </div>
-
-        <div ref={CSS} className={clsx("xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3  ")}>
-        { active ? CSS.current.classList.add([styles.fade], [styles.transformation], [styles.trois]) : null  }
-          <Image 
-          src={css}
-          width={80} 
-          height={80} 
-          alt=" Logo CSS" />
-          <span>CSS</span>
-        </div>
-
-        <div ref={HTML} className={clsx(" xl:px-0 lg:opacity-0  flex flex-col px-2 pb-3 ")}>
-        { active ? HTML.current.classList.add([styles.fade], [styles.transformation], [styles.quatre]) : null  }
-          <Image 
-          src={html}
-          width={80} 
-          height={80} 
-          alt="Logo HTML" />
-          <span>HTML</span>
-        </div>
-
-        <div ref={TWC} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
-        { active ? TWC.current.classList.add([styles.fade], [styles.transformation], [styles.cinq]) : null  }
-          <Image 
-          src={twc}
-          width={80} 
-          height={80} 
-          alt="Logo Tailwind" />
-          <span>Tailwind</span>
-        </div>
-
-        <div ref={FSTY} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
-        { active ? FSTY.current.classList.add([styles.fade], [styles.transformation],[styles.six]) : null  }
-          <Image 
-          src={fsty}
-          width={80} 
-          height={80} 
-          alt=" Logo MongoDB" />
-          <span>Mongo DB</span>
-        </div>
-
-        <div ref={GIT} className={clsx(" xl:px-0 lg:opacity-0 flex flex-col px-2 pb-3")}>
-        { active ? GIT.current.classList.add([styles.fade], [styles.transformation],[styles.six]) : null  }
-          <Image 
-          src={git}
-          width={80} 
-          height={80} 
-          alt=" Logo GIT" />
-          <span>Next JS</span>
-        </div>
-
-
-
-
-        
-        </div>
-        
-        </>
-    )
-   
+return (
+  <SectionWrapper title="Mes Compétences Techniques">
+  <div className="relative overflow-hidden w-full py-4 flex flex-col gap-16 lg:gap-20 text-center">
+  <div className="flex animate-marquee whitespace-nowrap">
+    {skills.map((skill, index) => (
+      <div key={index} className="flex-shrink-0 w-32 h-32 mx-4">
+        <Image src={skill.logo}
+        width={128}
+        height={128}
+         alt={`${skill.name} logo`} className="w-full h-full object-contain" />
+      </div>
+    ))}
+    {skillsLoop.map((skill, index) => (
+      <div key={`copy-${index}`} className="flex-shrink-0 w-32 h-32 mx-4">
+        <Image 
+        src={skill.logo} 
+        width={128}
+        height={128}
+        alt={`${skill.name} logo`} className="w-full h-full object-contain" />
+      </div>
+    ))}
+  </div>
+</div>
+</SectionWrapper>
+);
 }
+
+
 

@@ -30,13 +30,15 @@ const Home = () => {
   return (
     <>
     <DefaultSeo {...SEO} />
-     
         <Header />
         <HeroSection />
-        <div className="flex flex-col sm:gap-16 md:gap-40 pt-32">
+        <div className="flex flex-col sm:gap-16 md:gap-52 md:pt-36 gap-28">
         <Skills/>
+        <span id="projet"></span>
         <ProjectSection /> 
+        <span id="jeu"></span>
         <DynamicMemorySection />
+        <span id="contact"></span>
         <Footer />
       </div>
     </>

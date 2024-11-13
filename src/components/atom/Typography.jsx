@@ -43,8 +43,10 @@ export const Typography = ({
         {...props}
         className={clsx(
           className,
-          "text-3xl md:text-4xl",
-          color === "primary" ? "text-skin-primary" : "text-skin-secondary"
+          { /*"text-3xl md:text-4xl",
+          color === "primary" ? "text-skin-primary" : "text-skin-secondary"*/},
+          " text-3xl md:text-4xl font-extrabold text-lime-400 drop-shadow-[0_0px_20px_#fff]"
+
         )}
       >
         {children}

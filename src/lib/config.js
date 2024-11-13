@@ -1,10 +1,12 @@
-import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
+import { SiGithub, SiLinkedin, SiTwitter, SiMaildotru } from 'react-icons/si';
 
 export const GITHUB_USERNAME = 'F-KZ';
 
-export const EMAIL = 'franck.kanza@outlook.fr';
+export const EMAIL = 'Franck.Kanza@outlook.fr';
 
 export const FULL_NAME = 'Franck Kanza';
+
+export const Phone = `0644396284`;
 
 export const SOCIAL_NETWORKS = [
   {
@@ -22,4 +24,9 @@ export const SOCIAL_NETWORKS = [
     name: 'Github',
     icon: <SiGithub />,
   },
+  {
+    url: `mailto:${EMAIL}`,
+    name: 'Mail',
+    icon: <SiMaildotru />,
+  }
 ];

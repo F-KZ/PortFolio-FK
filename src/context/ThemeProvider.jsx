@@ -20,7 +20,7 @@ export const ThemeProvider = ({ children }) => {
       return
     }
 
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: light)");
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
   const handleChange = () => {
     // en fonction du prefers-color-scheme, tu peux setter le theme
@@ -38,7 +38,7 @@ export const ThemeProvider = ({ children }) => {
 
   function toggleTheme() {
     setTheme((curr) => {
-    const newTheme = curr === 'dark' ? 'light' : 'dark'
+    const newTheme = curr === 'dark' ? 'dark' : 'dark'
     localStorage.setItem(LOCALSTORAGE, newTheme)
     return newTheme
     })
