@@ -1,6 +1,4 @@
-import { SectionWrapper } from '../atom/SectionWrapper';
-import Image from 'next/image';
-import cvPic from "../../img/cvPic.png"
+
 
 
 const PDF_CV = "https://www.franck-kanza.fr/Kanza.pdf"

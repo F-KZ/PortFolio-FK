@@ -6,7 +6,7 @@ import { SOCIAL_NETWORKS } from "../../lib/config";
  * @param className string
  * @constructor
  */
-export const SocialNetworks = ({ socialNetworks }) => {
+export const SocialNetworks = () => {
   return (
     <div className="flex flex-row gap-8">
     {SOCIAL_NETWORKS.map(({ url, icon }) => (
