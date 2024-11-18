@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@notionhq/client": "^0.4.4",
     "aos": "^3.0.0-beta.6",
     "bad-words": "^3.0.4",
